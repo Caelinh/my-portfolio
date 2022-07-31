@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi👋",
-    "description": "Im Caelin Hargrave.I recently finished a 8 year commitment to the Navy where I served as an aviation electronics technician.Before joining the military I attended Texas Tech university to get a bachelor's degree in computerscience.After a few years I decided to join the military for a break and to get my college paid for. Now I'mjusttrying to reach that same end goal on a way shorter time frame. My goal is to work in the WEB 3 space to makenew things that change the way we interact on the internet.",
+    "description": "Im Caelin Hargrave.I recently finished a 8 year commitment to the Navy where I served as an aviation electronics technician. Before joining the military I attended Texas Tech university to get a bachelor's degree in computer science. After a few years I decided to join the military for a break and to get my college paid for. Now I'm just trying to reach that same end goal on a way shorter time frame. My goal is to work in the WEB 3 space to makenew things that change the way we interact on the internet.",
       "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -63,53 +63,40 @@
       "url": "https://github.com/Caelinh",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-react-plain",
+          "name": "React"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
         }
       ]
     }
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
+      "company": "U.S Navy",
+      "title": "Avionics Technician",
+      "years": "04.2014 - 05.2022",
       "mainTech": [
-        "Angular 8/9/10"
+        "Radar and jamming systems for aircraft"
       ],
       "technologies": [
-        "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "ALQ-167",
+        "Radar altimeters",
+        "Excel"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
+      "company": "Texas Tech University",
+      "title": "Full time student",
+      "years": "08.2012 - 05.2013",
       "mainTech": [
-        "Angular 7/8"
+        "Computer science major"
       ],
       "technologies": [
-        "RxJS",
-        "Django",
-        "PHP",
-        "JavaScript",
-        "DHTMLX Gantt"
+        "Java",
+        "Python"
       ]
     }
   ]
