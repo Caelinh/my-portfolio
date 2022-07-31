@@ -1,20 +1,20 @@
 {
     "basic_info": {
       "name": "Caelin Hargrave",
-      "titles": [ "Software Developer" ],
+      "titles": [ "Military Veteran | Experienced Leader | Software Developer | Technician | Proficient in Javascript, CSS, HTML, REACT" ],
       "social": [
         {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/in/caelin-hargrave",
+          "class": "fab fa-linkedin"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "github",
+          "url": "https://github.com/Caelinh",
+          "class": "fab fa-github"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "Caelin_pic.jpg"
     },
     "skills": {
       "icons": [
