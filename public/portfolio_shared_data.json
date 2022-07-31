@@ -1,20 +1,20 @@
 {
     "basic_info": {
       "name": "Caelin Hargrave",
-      "titles": [ "Software Developer" ],
+      "titles": [ "Military Veteran | Experienced Leader | Software Developer | Technician | Proficient in Javascript, CSS, HTML, REACT" ],
       "social": [
         {
-          "name": "github",
-          "url": "https://github.com",
-          "class": "fab fa-github"
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/in/caelin-hargrave",
+          "class": "fab fa-linkedin"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "github",
+          "url": "https://github.com/Caelinh",
+          "class": "fab fa-github"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "Caelin_pic.jpg"
     },
     "skills": {
       "icons": [
@@ -29,24 +29,9 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
           "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
         },
         {
           "name": "Bootstrap",
@@ -54,13 +39,13 @@
           "level": "85"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
+          "name": "React",
+          "class": "devicon-react-plain",
           "level": "65"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
+          "name": "Java",
+          "class": "devicon-java-plain",
           "level": "60"
         }
       ]
