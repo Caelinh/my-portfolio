@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Canvas } from "@react-three/fiber";
+import Graphics from "./Graphics";
 
 class Skills extends Component {
   render() {

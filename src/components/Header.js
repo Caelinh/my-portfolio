@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Switch from "@brookr/react-switch";
 import Nav from 'react-bootstrap/Nav'
 import { LinkContainer } from "react-router-bootstrap";
+import { Canvas } from "@react-three/fiber";
+import Graphics from "./Graphics";
+import './Header.scss'
 
 class Header extends Component {
   titles = [];
@@ -99,19 +102,16 @@ class Header extends Component {
           </Nav.Item>
         </Nav>
         <div className="row aligner" style={{height: '100%'}}>
-          <div className="col-md-12">
-            <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
-              <br/>
-              <h1 className="mb-0">
-                {name}
-              </h1>
-              <div className="title-container">
-                <HeaderTitleTypeAnimation />
-              </div>
-              
-            </div>
-          </div>
+        <Canvas
+          camera={{
+            fov: 45,
+            near: 0.1,
+            far: 200,
+            position: [5, - 2, 6]
+          }}
+        >
+          <Graphics/>
+        </Canvas>
         </div>
       </header>
     );
