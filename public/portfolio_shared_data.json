@@ -16,38 +16,98 @@
       ],
       "image": "Caelin_pic.jpg"
     },
-    "skills": {
+    "languages":{
       "icons": [
         {
-          "name": "HTML 5",
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "95"
+        },
+        {
+          "name": "Javascript",
+          "class": "devicon-javascript-plain",
+          "level": "95"
+        },
+        {
+          "name": "HTML",
           "class": "devicon-html5-plain",
           "level": "95"
         },
         {
-          "name": "CSS 3",
+          "name": "CSS",
           "class": "devicon-css3-plain",
           "level": "95"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
+        }
+      ]
+    },
+    "skills": {
+      "icons": [
         {
           "name": "React",
           "class": "devicon-react-plain",
-          "level": "65"
+          "level": "95"
         },
         {
-          "name": "Java",
-          "class": "devicon-java-plain",
-          "level": "60"
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain-wordmark",
+          "level": "95"
+        },
+        {
+          "name": "Node js",
+          "class": "devicon-nodejs-plain",
+          "level": "95"
+        },
+        {
+          "name": "VS Code",
+          "class": "devicon-vscode-plain",
+          "level": "95"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "95"
+        },
+        {
+          "name": "GitHub",
+          "class": "devicon-github-original",
+          "level": "95"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "95"
+        },
+        {
+          "name": "Intellij",
+          "class": "devicon-intellij-plain",
+          "level": "95"
+        },
+        {
+          "name": "Android",
+          "class": "devicon-android-plain",
+          "level": "95"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "95"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "95"
+        },
+        {
+          "name": "Spring",
+          "class": "devicon-spring-plain",
+          "level": "95"
+        },
+        {
+          "name": "Threejs",
+          "class": "devicon-threejs-original",
+          "level": "95"
         }
+        
       ]
     }
   }

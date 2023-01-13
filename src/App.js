@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Home from "./components/Home";
 
+
 class App extends Component {
 
   constructor(props) {
@@ -69,6 +70,7 @@ class App extends Component {
 
   render() {
     return (
+      
       <Router>
         <Header sharedData={this.state.sharedData.basic_info} />
         <Routes>
@@ -87,11 +89,13 @@ class App extends Component {
             />}>
           </Route>
         </Routes>
+        
         <Footer
           sharedBasicInfo={this.state.sharedData.basic_info}
           applyPickedLanguage={this.applyPickedLanguage}
         />
       </Router>
+      
     );
   }
 }
