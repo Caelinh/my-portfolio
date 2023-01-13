@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-import { Canvas } from "@react-three/fiber";
-import Graphics from "./Graphics";
 
 class Skills extends Component {
   render() {
     if (this.props.sharedSkills && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.skills;
+      var sectionName = "Languages and Skills";
       var skills = this.props.sharedSkills.icons.map(function (skills, i) {
         return (
           <li className="list-inline-item mx-3" key={i}>
@@ -24,6 +22,24 @@ class Skills extends Component {
           </li>
         );
       });
+      var languages = this.props.sharedLanguages.icons.map(function (languages, i) {
+        return (
+          <li className="list-inline-item mx-3" key={i}>
+            <span>
+              <div className="text-center skills-tile">
+                <i className={languages.class} style={{ fontSize: "220%" }}>
+                  <p
+                    className="text-center"
+                    style={{ fontSize: "30%", marginTop: "4px" }}
+                  >
+                    {languages.name}
+                  </p>
+                </i>
+              </div>
+            </span>
+          </li>
+        );
+      });
     }
 
     return (
@@ -33,6 +49,9 @@ class Skills extends Component {
             <h1 className="section-title">
               <span className="text-white">{sectionName}</span>
             </h1>
+          </div>
+          <div className="col-md-12 text-center">
+            <ul className="list-inline mx-auto skill-icon">{languages}</ul>
           </div>
           <div className="col-md-12 text-center">
             <ul className="list-inline mx-auto skill-icon">{skills}</ul>

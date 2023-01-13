@@ -1,7 +1,7 @@
 {
   "basic_info": {
-    "description_header": "Hi👋",
-    "description": "Im Caelin Hargrave.I recently finished a 8 year commitment to the Navy where I served as an aviation electronics technician. Before joining the military I attended Texas Tech university to get a bachelor's degree in computer science. After a few years I decided to join the military for a break and to get my college paid for. Now I'm just trying to reach that same end goal on a way shorter time frame. My goal is to work in the WEB 3 space to makenew things that change the way we interact on the internet.",
+    "description_header": "Hello👋",
+    "description":  "I'm a full-stack software developer and Navy Veteran, passionate about working on teams to create exciting applications that help solve complex problems that make life easier. My time in the military fine tuned my attention to detail and troubleshooting skills to a point where I figured I would switch my career to that of a software developer. I'm interested in creating all the aspects that make a great application and I really enjoy learning about the parts that make that happen. ",
       "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -11,36 +11,36 @@
   },
   "projects": [
     {
-      "title": "Web-Arcade",
+      "title": "Web Arcade",
       "startDate": "2022",
-      "description": "A site created with three others that showcases three different minigames created using vanilla javascript, CSS, and HTML.",
+      "description": "A site created with a team of three that showcases three different minigames.",
       "images": [
         "images/Web-arcadeSS.png"
       ],
       "url": "https://haydencleaver.github.io/Web-Arcade/",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-html5-plain",
+          "name": "HTML"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-css3-plain",
+          "name": "CSS"
         }
       ]
     },
     {
-      "title": "City Explorer",
+      "title": "E-Vents",
       "startDate": "2022",
-      "description": "Project created for users to search weather, movies, restaurants and map data for a searched city using API queries.",
+      "description": "A site for users to search what events, airfare and hotels are available for a trip they're planning based on location and dates. Utilizes multiple API calls for data. ",
       "images": [
-        "images/CityExplorer.png"
+        "images/Events.png"
       ],
-      "url": "https://harmonious-torrone-744603.netlify.app/",
+      "url": "https://e-ventsite.herokuapp.com/",
       "technologies": [
         {
           "class": "devicon-react-original",
@@ -49,37 +49,83 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-tailwindcss-plain",
+          "name": "Tailwind CSS"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "Mongo DB"
         }
       ]
     },
     {
-      "title": "301 Final project",
+      "title": "Code4Me",
       "startDate": "2022",
-      "description": "Placeholder for an application to come",
+      "description": "A website created for developers to market themselves and provide paid services to clients.",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/Code4ME.png"
       ],
-      "url": "https://github.com/Caelinh",
+      "url": "https://code4me.herokuapp.com/",
       "technologies": [
         {
-          "class": "devicon-react-plain",
-          "name": "React"
+          "class": "devicon-java-plain",
+          "name": "Java"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "class": "devicon-postgresql-plain",
+          "name": "Postgres SQL"
+        },
+        {
+          "class": "devicon-spring-plain",
+          "name": "Spring"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
         }
       ]
     }
   ],
   "experience": [
     {
+      "company": "Codefellows",
+      "title": "Student",
+      "years": "05.2022 - 10.2022",
+      "mainTech": [
+        "Fullstack development"
+      ],
+      "technologies": [
+        "Java",
+        "Javascript",
+        "React",
+        "Html",
+        "CSS",
+        "Spring Boot",
+        "Angular",
+        "AWS",
+        "Android"
+      ]
+    },
+    {
       "company": "U.S Navy",
-      "title": "Avionics Technician",
+      "title": "Avionics Electronics Technician",
       "years": "04.2014 - 05.2022",
       "mainTech": [
-        "Radar and jamming systems for aircraft"
+        "Navy avionics equipment"
       ],
       "technologies": [
         "ALQ-167",
@@ -89,7 +135,7 @@
     },
     {
       "company": "Texas Tech University",
-      "title": "Full time student",
+      "title": "Student",
       "years": "08.2012 - 05.2013",
       "mainTech": [
         "Computer science major"
